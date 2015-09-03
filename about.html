@@ -13,7 +13,7 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    
+
     <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper">
@@ -37,7 +37,118 @@
 
     <div class="row">
         <div class="col s12">
-            Hello World!
+            <ul class="tabs">
+                <li class="tab col s3"><a class="active" href="#test1">Who are we?</a></li>
+                <li class="tab col s3"><a href="#test2">What do we do?</a></li>
+                <li class="tab col s3"><a href="#test3">Why do we do it?</a></li>
+                <li class="tab col s3"><a href="#test4">Members</a></li>
+            </ul>
+        </div>
+        <div id="test1" class="col s12">
+            <h1 class="center">&#x0915;&#x094C;&#x0928; (who)</h1>
+            <p style="font-size:150%">We are the first and only student organization at Purdue that
+                gives South Asian students opportunity to learn public speaking
+                skills in Hindi.  That being said, we do not want to limit
+                ourselves to students who know how to speak Hindi and we welcome
+                students who are curious to know about and learn Hindi. </p>
+        </div>
+        <div id="test2" class="col s12">
+            <h1 class="center">&#x0915;&#x094D;&#x092F;&#x093E; (what)</h1>
+            <p style="font-size:150%">The goal of this organization is to improve each student member's
+                 public speaking skills. In order to do that, we discuss and
+                 practice various techniques one needs to know to be a great
+                 public speaker. To recognize each member's public speaking progress
+                 over a semester, we organize a Speech/Debate competition, which
+                 is open to both members and non-members. </p>
+        </div>
+        <div id="test3" class="col s12">
+            <h1 class="center">&#x0915;&#x094D;&#x092F;&#x094B;&#x0902; (what)</h1>
+            <p style="font-size:150%">Purdue is home to a big number of Hindi speaking students and we
+                believe there should be a platform for students who participated
+                or wanted to participate in Hindi oriented events and competitions
+                during their high school. Also, a significant percentage of the
+                Hindi speaking population wants to go back to their homes to
+                create a difference through entrepreneurship or leadership
+                engagement in the society. Our aim is to help those Boilermakers
+                become better speakers.</p>
+        </div>
+        <div id="test4" class="col s12">
+            <h1 class="center">&#x0938;&#x0926;&#x0938;&#x094D;&#x092F; (members)</h1>
+
+            <div class="col s12 l6">
+            <ul class="collection">
+                <li class="collection-item avatar">
+                    <img src="images/pranamDaga.jpg" alt="" class="circle">
+                    <span class="title">Pranam Daga</span>
+                    <p>Mr. President <br>
+                        Industrial Engineer - 3rd year
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+                <li class="collection-item avatar">
+                    <img src="images/shivamPatel.jpg" alt="" class="circle">
+                    <span class="title">Shivam Patel</span>
+                    <p>Treasurer <br>
+                        Mechanical Engineer - 3rd year
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+                <li class="collection-item avatar">
+                    <img src="images/abhishekSrikanth.jpg" alt="" class="circle">
+                    <span class="title">Abhishek Srikanth</span>
+                    <p>Webmaster <br>
+                        Computer Engineer - 3rd year
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle red">play_arrow</i>
+                    <span class="title">You!</span>
+                    <p>Esteemed member <br>
+                        Click on the star to join -->
+                    </p>
+                    <a href="join.html" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+            </ul>
+            </div>
+
+            <div class="col s12 l6">
+            <ul class="collection">
+                <li class="collection-item avatar">
+                    <i class="material-icons circle green">insert_chart</i>
+                    <span class="title">Title</span>
+                    <p>First Line <br>
+                        Second Line
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle green">insert_chart</i>
+                    <span class="title">Title</span>
+                    <p>First Line <br>
+                        Second Line
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle green">insert_chart</i>
+                    <span class="title">Title</span>
+                    <p>First Line <br>
+                        Second Line
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle green">insert_chart</i>
+                    <span class="title">Title</span>
+                    <p>First Line <br>
+                        Second Line
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+            </ul>
+            </div>
+
         </div>
     </div>
 
@@ -45,7 +156,7 @@
     $( document ).ready(function()
     {
       $(".button-collapse").sideNav();
-    }) 
+    })
     </script>
   </body>
 </html>
